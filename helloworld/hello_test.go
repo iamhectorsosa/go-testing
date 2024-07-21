@@ -44,5 +44,5 @@ func assertCorrectMessage(t testing.TB, got, want string) {
 func ExampleHello() {
 	hello := Hello("", "")
 	fmt.Println(hello)
-	// Output: "Hello, World"
+	// Output: Hello, World
 }
